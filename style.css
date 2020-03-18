@@ -1,0 +1,119 @@
+/* STEP 01 : FONTS & COLORS */
+
+body {
+  font-family: 'Roboto', serif;
+  font-size:16px;
+  line-height:1.6;
+  background-color: #F5F8FA;
+  background-image: url("images/webdesign.png");
+  background-repeat:no-repeat;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color:#007FBD;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color:#007FBD;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #909294;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size:18px;
+  color: #000000;
+}
+
+/* CUSTOM DESIGN*/
+
+.card-white {
+  background-color: #FFFFFF;
+  padding: 32px;
+  width: 50%;
+  margin: 0px auto 30px auto;
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgb(0,0,0,.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+  border:1px solid rgb(200,200,200);
+  width:150px;
+}
+
+.text-center {
+  text-align:center;
+}
+
+.btn-red {
+  background-color:#FE0C16;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  padding:16px 24px;
+  border-radius: 10px;
+}
+
+.btn-red:hover {
+  background-color:white;
+  color:#FE0C16;
+}
+
+.list-clean {
+  list-style:none;
+  padding-left:0;
+}
+
+.list-clean .list-blok {
+  display:inline-block;
+}
+
+#intro {
+  margin-bottom:32px;
+}
+
+#socials li {
+  font-size:32px;
+  padding: 0px 16px;
+}
+#socials li a:hover {
+  color:#FE0C16;
+}
+#checks {
+  text-align: left;
+  margin: 0 auto;
+  width: 240px;
+}
+#checks i {
+  font-size:20px;
+  padding: 0px 16px;
+  color:#FE0C16;
+}
+
+/* RESPONSIVE PROFIL */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
